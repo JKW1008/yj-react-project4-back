@@ -8,6 +8,6 @@ var _express = _interopRequireDefault(require("express"));
 var _foodsController = require("../controllers/foodsController.js");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 var foodsRouter = _express["default"].Router();
-foodsRouter.get("/joongu", _foodsController.getJoongufoods);
+foodsRouter.get("/joongu", _foodsController.getJoonguFoods);
 var _default = foodsRouter;
 exports["default"] = _default;
