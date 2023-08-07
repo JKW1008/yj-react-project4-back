@@ -22,7 +22,6 @@ app.use(express.urlencoded({ extended: true }));
 
 // 라우터로 보내기
 app.use("/api/rental", rentalRouter);
-
 app.use("/api/foods", foodsRouter);
 
 const handleListening = () =>

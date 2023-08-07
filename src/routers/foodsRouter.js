@@ -1,8 +1,8 @@
 import express from "express";
-import { getJoongufoods } from "../controllers/foodsController.js";
+import { getJoonguFoods } from "../controllers/foodsController.js";
 
 const foodsRouter = express.Router();
 
-foodsRouter.get("/joongu", getJoongufoods);
+foodsRouter.get("/joongu", getJoonguFoods);
 
 export default foodsRouter;
