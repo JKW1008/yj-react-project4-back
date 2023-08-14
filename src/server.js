@@ -5,6 +5,7 @@ import morgan from "morgan";
 import rentalRouter from "./routers/rentalRoter.js";
 import cors from "cors";
 import foodsRouter from "./routers/foodsRouter.js";
+import userRouter from "./routers/userRouter.js";
 
 const PORT = 8080;
 const app = express();
@@ -26,6 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 // 라우터로 보내기
 app.use("/api/rental", rentalRouter);
 app.use("/api/foods", foodsRouter);
+app.use("/api/users", userRouter);
 
 const handleListening = () =>
   console.log(`😍Server listening on port http://localhost:${PORT}`);

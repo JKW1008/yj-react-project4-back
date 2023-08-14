@@ -23,3 +23,7 @@
 ## monggodb
 
 -
+
+## node.bcrypt.js
+
+- npm i bcrypt
