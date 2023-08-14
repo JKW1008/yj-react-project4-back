@@ -27,3 +27,11 @@
 ## node.bcrypt.js
 
 - npm i bcrypt
+
+## cookie-parser
+
+- npm i cookie-parser
+
+## jsonwebtoken
+
+- npm i jsonwebtoken
